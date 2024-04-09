@@ -118,7 +118,7 @@
     google-chrome
     firefox
     discord
-    rofi-screenshot
+    rofi-screenshotS 
     spotify
   #  wget
   ];

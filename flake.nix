@@ -9,7 +9,7 @@
     };
   };
 
-  outputs = { self, nixpkgs }:
+  outputs = { self, nixpkgs, ... }:
   let
     system = "x86-64-linux";
 

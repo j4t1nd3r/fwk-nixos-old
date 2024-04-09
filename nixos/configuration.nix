@@ -117,6 +117,7 @@
     vscode
     google-chrome
     firefox
+    discord
     spotify
   #  wget
   ];

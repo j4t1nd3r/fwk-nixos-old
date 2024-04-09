@@ -9,7 +9,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, ... }:
+  outputs = { self, nixpkgs, ... }@inputs:
   let
     system = "x86-64-linux";
 
@@ -25,7 +25,7 @@
     {
     nixosConfigurations = {
       fwk-nixos = nixpkgs.lib.nixosSystem {
-        specialArgs = { inherit system; };
+        specialArgs = { inherit inputs system; };
 
         modules = [
         ./nixos/configuration.nix

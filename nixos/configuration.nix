@@ -2,22 +2,22 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ inputs, config, pkgs, ... }:
 
 {
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      # inputs.home-manager.nixosModules.home-manager
+      inputs.home-manager.nixosModules.home-manager
     ];
 
   # home-manager
-  # home-manager = {
-  #   extraSpecialArgs = { inherit inputs; };
-  #   users = {
-  #     jat = import ./home.nix;
-  #   };
-  # };
+  home-manager = {
+    extraSpecialArgs = { inherit inputs; };
+    users = {
+      jat = import ./home.nix;
+    };
+  };
 
   # enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

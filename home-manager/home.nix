@@ -16,12 +16,12 @@
    ];
 
   home.file = {
-    # ".config/warp-terminal/user_preferences.json" = {
-    #   source = config.lib.file.mkOutOfStoreSymlink "$profile/nix-fwk-system/configs/warp-terminal.json";
-    # };
+    ".config/warp-terminal/user_preferences.json" = {
+      source = config.lib.file.mkOutOfStoreSymlink ../configs/warp-terminal.json;
+    };
   };
   
-  home.file.".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
+  # home.file.".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
   # home.file.".config/warp-terminal/user_preferences.json".source = "nix-fwk-system/configs/warp-terminal.json";
 
   home.sessionVariables = {

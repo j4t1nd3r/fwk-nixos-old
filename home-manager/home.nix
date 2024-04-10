@@ -41,13 +41,4 @@
     ];
   };
 
-  home.activationScripts.setPlasmaTheme = {
-    text = ''
-      # Set the global theme to Breeze Dark
-      lookandfeeltool -a org.kde.breezedark.desktop
-
-    '';
-    phase = "setup";
-  };
-
 }

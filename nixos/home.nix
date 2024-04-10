@@ -19,7 +19,7 @@
   };
 
   home.sessionVariables = {
-    # EDITOR = "emacs";
+    EDITOR = "code";
   };
 
   programs.home-manager.enable = true;

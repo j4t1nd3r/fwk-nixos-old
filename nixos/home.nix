@@ -1,6 +1,13 @@
 { config, pkgs, ... }:
 
 {
+  # set allowunFree
+  nixpkgs = {
+    config = {
+      allowUnfree = true;
+    };
+  };
+
   home.username = "jat";
   home.homeDirectory = "/home/jat";
   home.stateVersion = "23.11"; # Please read the comment before changing.

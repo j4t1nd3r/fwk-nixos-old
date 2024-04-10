@@ -5,11 +5,11 @@
   home.homeDirectory = "/home/jat";
   home.stateVersion = "23.11"; # Please read the comment before changing.
   home.packages = [
+    vscode-extensions.bbenoist.nix
      
    ];
 
   home.file = {
-    
   };
 
   home.sessionVariables = {
@@ -28,7 +28,7 @@
     enable = true;
     extensions = with pkgs.vscode-extensions; [
       dracula-theme.theme-dracula
-      bbenoist.Nix
+      # bbenoist.Nix
     ];
   };
 }

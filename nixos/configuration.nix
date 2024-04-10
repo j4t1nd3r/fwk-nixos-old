@@ -100,6 +100,7 @@
     pkgs.home-manager
     git
     warp-terminal
+    jq
     xclip
     neofetch
     vscode

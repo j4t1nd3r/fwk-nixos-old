@@ -16,7 +16,7 @@
    ];
 
   home.file = {
-    "/.config/warp-terminal/user_preferences.json" = {
+    "~/.config/warp-terminal/user_preferences.json" = {
       source = config.lib.file.mkOutOfStoreSymlink "/home/jat/nix-fwk-system/configs/warp-terminal.json";
     };
   };
@@ -32,7 +32,7 @@
     userName  = "Jatinder Randhawa";
     userEmail = "j4t1nd3r@gmail.com";
   };
-  
+
   programs.vscode = {
     enable = true;
     extensions = with pkgs.vscode-extensions; [

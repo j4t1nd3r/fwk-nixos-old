@@ -16,9 +16,11 @@
    ];
 
   home.file = {
-    home.file.".config/warp-terminal/user_preferences.json".source = ./configs/warp-terminal.json;
+    ".config/warp-terminal/user_preferences.json" = {
+      source = config.lib.file.mkOutOfStoreSymlink "/home/jat/nix-fwk-system/configs/warp-terminal.json"
+    };
   };
-
+  
   home.sessionVariables = {
     EDITOR = "code";
   };

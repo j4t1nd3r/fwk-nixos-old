@@ -31,7 +31,8 @@
     enable = true;
     userName  = "Jatinder Randhawa";
     userEmail = "j4t1nd3r@gmail.com";
-  }
+  };
+  
   programs.vscode = {
     enable = true;
     extensions = with pkgs.vscode-extensions; [

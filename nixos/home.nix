@@ -55,5 +55,5 @@
       AutosuggestionAcceptedCount = "2";
       ChangelogVersions = "{\"v0.2024.03.19.08.01.stable_01\":true}";
     };
-
+  };
 }

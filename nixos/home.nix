@@ -24,11 +24,11 @@
     userEmail = "j4t1nd3r@gmail.com";
   };
 
-#   programs.vscode = {
-#     enable = true;
-#     extensions = with pkgs.vscode-extensions; [
-#       dracula-theme.theme-dracula
-#       bbenoist.Nix
-#     ];
-#   };
+  programs.vscode = {
+    enable = true;
+    extensions = with pkgs.vscode-extensions; [
+      dracula-theme.theme-dracula
+      nix
+    ];
+  };
 }

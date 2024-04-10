@@ -16,6 +16,7 @@
    ];
 
   home.file = {
+    home.file.".config/warp-terminal/user_preferences.json".source = ./configs/warp-terminal.json;
   };
 
   home.sessionVariables = {
@@ -37,12 +38,5 @@
       bbenoist.nix
     ];
   };
-
-  # no warp module in home manager, direct overwrite of config file
-      home.activationScripts.setFontSize.text = ''
-      if [ -f $HOME/.config/warp-terminal/user_preferences.json ]; then
-        jq '.prefs.FontSize = "9.0"' $HOME/.config/warp-terminal/user_preferences.json > $HOME/.config/warp-terminal/tmp.$$.json && mv $HOME/.config/warp-terminal/tmp.$$.json $HOME/.config/warp-terminal/user_preferences.json
-      fi
-    '';
 
 }

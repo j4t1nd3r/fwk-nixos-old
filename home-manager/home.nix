@@ -17,7 +17,7 @@
 
   home.file = {
     ".config/warp-terminal/user_preferences.json" = {
-      source = config.lib.file.mkOutOfStoreSymlink "../configs/warp-terminal.json";
+      source = config.lib.file.mkOutOfStoreSymlink "nix-fwk-system/configs/warp-terminal.json";
     };
   };
   

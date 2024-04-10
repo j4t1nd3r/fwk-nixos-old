@@ -39,7 +39,7 @@
   };
 
   # no warp module in home manager, direct overwrite of config file
-  xdg.configFile."warp-terminal/user_preferences.json".text = builtins.toJSON {
+  xdg.configFile."/.config/warp-terminal/user_preferences.json".text = builtins.toJSON {
     prefs = {
       AIAssistantRequestLimitInfo = "{\"limit\":100,\"num_requests_used_since_refresh\":1,\"next_refresh_time\":\"2024-04-11T11:05:35.461882682Z\"}";
       WelcomeTipsFeaturesUsed = "[{\"Hint\":\"BlockSelect\"},{\"Hint\":\"CreateBlock\"},{\"Action\":\"CommandPalette\"},{\"Hint\":\"BlockAction\"},{\"Action\":\"WarpAI\"}]";

@@ -39,13 +39,10 @@
   };
 
   # no warp module in home manager, direct overwrite of config file
-  home.activationScripts.setFontSize = {
-    text = ''
+      home.activationScripts.setFontSize.text = ''
       if [ -f $HOME/.config/warp-terminal/user_preferences.json ]; then
         jq '.prefs.FontSize = "9.0"' $HOME/.config/warp-terminal/user_preferences.json > $HOME/.config/warp-terminal/tmp.$$.json && mv $HOME/.config/warp-terminal/tmp.$$.json $HOME/.config/warp-terminal/user_preferences.json
       fi
     '';
-    phase = "setup";
-  };
 
 }

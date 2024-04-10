@@ -5,7 +5,6 @@
   home.homeDirectory = "/home/jat";
   home.stateVersion = "23.11"; # Please read the comment before changing.
   home.packages = [
-    vscode-extensions.bbenoist.nix
      
    ];
 

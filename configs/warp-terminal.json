@@ -1,5 +1,6 @@
 {
   "prefs": {
+    "Theme": "\"GruvboxDark\"",
     "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":1,\"next_refresh_time\":\"2024-04-11T11:05:35.461882682Z\"}",
     "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"BlockSelect\"},{\"Hint\":\"CreateBlock\"},{\"Action\":\"CommandPalette\"},{\"Hint\":\"BlockAction\"},{\"Action\":\"WarpAI\"}]",
     "EmacsBindingsBannerState": "\"Dismissed\"",

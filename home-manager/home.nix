@@ -38,6 +38,7 @@
     extensions = with pkgs.vscode-extensions; [
       dracula-theme.theme-dracula
       bbenoist.nix
+      github.vscode-pull-request-github
     ];
   };
 

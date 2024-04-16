@@ -55,6 +55,7 @@
     ];
     userSettings = {
       "editor.tabSize" = 2;
+      "git.enableSmartCommit" = true;
     };
   };
 }

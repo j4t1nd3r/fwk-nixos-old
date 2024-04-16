@@ -1,7 +1,7 @@
 { config, pkgs, plasma-manager, ... }:
 
 {
-  Imports = [
+  imports = [
     plasma-manager.homeManagerModules.plasma-manager
   ];
 

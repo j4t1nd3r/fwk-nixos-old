@@ -3,7 +3,7 @@
 {
   imports = [
     plasma-manager.homeManagerModules.plasma-manager
-    ../modules/
+    ../modules
   ];
 
   programs.plasma.enable = true;

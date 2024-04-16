@@ -62,9 +62,9 @@
       bbenoist.nix
       github.vscode-pull-request-github
     ];
-    userSettings = {
-      "editor.tabSize" = 2;
-      "git.enableSmartCommit" = true;
-    };
+    # userSettings = {
+    #   "editor.tabSize" = 2;
+    #   "git.enableSmartCommit" = true;
+    # };
   };
 }

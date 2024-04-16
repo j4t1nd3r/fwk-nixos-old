@@ -3,11 +3,18 @@
 {
   imports = [
     plasma-manager.homeManagerModules.plasma-manager
-    ../modules
   ];
 
-  programs.plasma.enable = true;
+  programs.plasma = {
+  enable = true;
+
+  workspace = {
+    theme = "breeze-dark";
+  };
+};
   
+
+
   # set allowunFree
   nixpkgs = {
     config = {

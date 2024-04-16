@@ -55,7 +55,7 @@
     ];
     userSettings = {
       "[nix]"."editor.tabSize" = 2;
-    }
+    };
   };
 
 }

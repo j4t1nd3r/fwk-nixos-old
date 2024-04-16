@@ -10,10 +10,10 @@
 
   workspace = {
     theme = "breeze-dark";
+    colorScheme = "BreezeDark";
   };
 };
   
-
 
   # set allowunFree
   nixpkgs = {

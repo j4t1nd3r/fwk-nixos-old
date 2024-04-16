@@ -12,7 +12,6 @@
     lookAndFeel = "org.kde.breezedark.desktop";
   };
 };
-  
 
   # set allowunFree
   nixpkgs = {

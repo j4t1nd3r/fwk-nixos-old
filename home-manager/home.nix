@@ -5,13 +5,33 @@
     plasma-manager.homeManagerModules.plasma-manager
   ];
 
-  programs.plasma = {
-  enable = true;
+  programs.home-manager.enable = true;
+  
+  home = {
+    username = "jat";
+    homeDirectory = "/home/jat";
+    stateVersion = "23.11"; # Please read the comment before changing.
+    
+    packages = [
+      
+    ];
 
-  workspace = {
-    lookAndFeel = "org.kde.breezedark.desktop";
+    file = {
+      ".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
+    };
+
+    sessionVariables = {
+      EDITOR = "code";
+    };
   };
-};
+  
+  programs.plasma = {
+    enable = true;
+
+    workspace = {
+      lookAndFeel = "org.kde.breezedark.desktop";
+    };
+  };
 
   # set allowunFree
   nixpkgs = {
@@ -19,25 +39,6 @@
       allowUnfree = true;
     };
   };
-
-  home.username = "jat";
-  home.homeDirectory = "/home/jat";
-  home.stateVersion = "23.11"; # Please read the comment before changing.
-  home.packages = [
-     
-   ];
-
-  home.file = {
-
-  };
-  
-  home.file.".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
-
-  home.sessionVariables = {
-    EDITOR = "code";
-  };
-
-  programs.home-manager.enable = true;
 
   programs.git = {
     enable = true;

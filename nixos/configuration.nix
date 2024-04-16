@@ -11,7 +11,10 @@
 
   # home-manager
   home-manager = {
-    extraSpecialArgs = { inherit inputs; };
+    extraSpecialArgs = { 
+      inherit inputs;
+      plasma-manager = inputs.plasma-manager; 
+    };
     users = {
       jat = import ../home-manager/home.nix;
     };

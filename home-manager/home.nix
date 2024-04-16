@@ -1,6 +1,12 @@
-{ config, pkgs, ... }:
+{ config, pkgs, plasma-manager, ... }:
 
 {
+  Imports = [
+    plasma-manager.homeManagerModules.plasma-manager
+  ];
+
+  programs.plasma.enable = true;
+
   # set allowunFree
   nixpkgs = {
     config = {

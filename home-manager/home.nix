@@ -3,10 +3,10 @@
 {
   imports = [
     plasma-manager.homeManagerModules.plasma-manager
+    ../modules/
   ];
 
   programs.plasma.enable = true;
-  programs.plasma.theme = "Breeze-Dark";
   
   # set allowunFree
   nixpkgs = {

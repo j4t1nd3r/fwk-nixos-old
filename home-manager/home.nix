@@ -36,7 +36,7 @@
   programs.vscode = {
     enable = true;
     extensions = with pkgs.vscode-extensions; [
-      dracula-theme.theme-dracula
+      jdinhlife.gruvbox
       bbenoist.nix
       github.vscode-pull-request-github
     ];

@@ -97,6 +97,16 @@
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
     pkgs.home-manager
+      git
+      warp-terminal
+      jq
+      xclip
+      neofetch
+      vscode
+      google-chrome
+      firefox
+      discord
+      spotify
   #  wget
   ];
 

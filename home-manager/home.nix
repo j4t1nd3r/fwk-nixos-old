@@ -13,16 +13,6 @@
     stateVersion = "23.11"; # Please read the comment before changing.
     
     packages = [
-      git
-      warp-terminal
-      jq
-      xclip
-      neofetch
-      vscode
-      google-chrome
-      firefox
-      discord
-      spotify
     ];
 
     file = {

@@ -6,7 +6,8 @@
   ];
 
   programs.plasma.enable = true;
-
+  programs.plasma.theme = "Breeze-Dark" 
+  
   # set allowunFree
   nixpkgs = {
     config = {

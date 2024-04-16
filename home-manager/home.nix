@@ -54,7 +54,7 @@
       github.vscode-pull-request-github
     ];
     userSettings = {
-      "[nix]"."editor.tabSize" = 2;
+      "editor.tabSize" = 2;
     };
   };
 }

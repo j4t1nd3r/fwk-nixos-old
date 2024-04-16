@@ -53,7 +53,7 @@
       bbenoist.nix
       github.vscode-pull-request-github
     ];
-    userSettings {
+    userSettings = {
       "[nix]"."editor.tabSize" = 2;
     }
   };

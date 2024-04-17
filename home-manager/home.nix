@@ -17,6 +17,7 @@
     ];
 
     file = {
+       ".bashrc".source = ../configs/.bashrc;
       # ".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
     };
 

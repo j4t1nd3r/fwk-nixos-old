@@ -47,6 +47,14 @@
     userEmail = "j4t1nd3r@gmail.com";
   };
 
+  programs.bash.enable = true;
+  
+  programs.starship = {
+  enable = true;
+   enableBashIntegration = true; 
+  # settings = pkgs.lib.importTOML ../starship.toml;
+};
+
   programs.vscode = {
     enable = true;
     extensions = with pkgs.vscode-extensions; [
@@ -62,9 +70,4 @@
     #   "workbench.colorTheme": "Gruvbox Dark Hard";
     # };
   };
-  programs.starship = {
-  enable = true;
-   enableBashIntegration = true; 
-  # settings = pkgs.lib.importTOML ../starship.toml;
-};
 }

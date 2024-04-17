@@ -16,7 +16,7 @@
     ];
 
     file = {
-      ".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
+      # ".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
     };
 
     sessionVariables = {

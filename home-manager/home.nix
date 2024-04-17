@@ -17,7 +17,7 @@
     ];
 
     file = {
-      ".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
+      # ".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
     };
 
     sessionVariables = {
@@ -61,4 +61,8 @@
     #   "workbench.colorTheme": "Gruvbox Dark Hard";
     # };
   };
+  programs.starship = {
+  enable = true;
+  # settings = pkgs.lib.importTOML ../starship.toml;
+};
 }

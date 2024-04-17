@@ -73,13 +73,13 @@
       github.vscode-pull-request-github
     ];
     # userSettings = {
-    #   "editor.tabSize" = 2;
+    #   "extensions.autoCheckUpdates" = false;
     #   "git.enableSmartCommit" = true;
-    #   "git.confirmSync": false;
+    #   "git.confirmSync" = false;
+    #   "editor.tabSize" = 2;
     #   "editor.renderWhitespace" = "all";
-    #   "workbench.colorTheme" = "Gruvbox Dark Hard";
     #   "editor.fontFamily" = "'MesloLGL Nerd Font', 'Droid Sans Mono', 'monospace'";
-    #   "hardware.bluetooth.powerOnBoot" = true;
+    #   "workbench.colorTheme" = "Gruvbox Dark Hard";
     # };
   };
 }

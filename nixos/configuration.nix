@@ -105,6 +105,7 @@
     warp-terminal
     jq
     xclip
+    rofi-screenshot
     neofetch
     vscode
     google-chrome

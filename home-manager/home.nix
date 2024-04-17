@@ -10,7 +10,7 @@
   home = {
     username = "jat";
     homeDirectory = "/home/jat";
-    stateVersion = "23.11"; # Please read the comment before changing.
+    stateVersion = "23.11";
     
     packages = [
       starship

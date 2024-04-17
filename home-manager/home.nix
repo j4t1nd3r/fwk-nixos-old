@@ -17,7 +17,7 @@
     ];
 
     file = {
-       ".bashrc".source = ../configs/.bashrc;
+      #  ".bashrc".source = ../configs/.bashrc;
       # ".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
     };
 
@@ -64,6 +64,7 @@
   };
   programs.starship = {
   enable = true;
+   enableBashIntegration = true; 
   # settings = pkgs.lib.importTOML ../starship.toml;
 };
 }

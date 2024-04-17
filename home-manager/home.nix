@@ -76,9 +76,10 @@
     #   "editor.tabSize" = 2;
     #   "git.enableSmartCommit" = true;
     #   "git.confirmSync": false;
-    #   "editor.renderWhitespace": "all";
-    #   "workbench.colorTheme": "Gruvbox Dark Hard";
-    #   "editor.fontFamily": "'MesloLGL Nerd Font', 'Droid Sans Mono', 'monospace'"
+    #   "editor.renderWhitespace" = "all";
+    #   "workbench.colorTheme" = "Gruvbox Dark Hard";
+    #   "editor.fontFamily" = "'MesloLGL Nerd Font', 'Droid Sans Mono', 'monospace'";
+    #   "hardware.bluetooth.powerOnBoot" = true;
     # };
   };
 }

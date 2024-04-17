@@ -11,9 +11,9 @@
     username = "jat";
     homeDirectory = "/home/jat";
     stateVersion = "23.11";
-    
+
     packages = [
-      starship
+      pkgs.starship
     ];
 
     file = {

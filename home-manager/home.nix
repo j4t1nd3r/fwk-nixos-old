@@ -55,6 +55,9 @@
     # userSettings = {
     #   "editor.tabSize" = 2;
     #   "git.enableSmartCommit" = true;
+    #   "git.confirmSync": false;
+    #   "editor.renderWhitespace": "all";
+    #   "workbench.colorTheme": "Gruvbox Dark Hard";
     # };
   };
 }

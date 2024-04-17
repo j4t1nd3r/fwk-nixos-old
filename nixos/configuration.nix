@@ -37,6 +37,7 @@
   networking.networkmanager.enable = true;
   # Enable bluetooth
   hardware.bluetooth.enable = true; 
+  hardware.bluetooth.powerOnBoot = true;
   # Set time zone.
   time.timeZone = "Europe/London";
 

@@ -6,11 +6,14 @@
     "MatchNotebookToMonospaceFontSize": "true",
     "FontName": "\"MesloLGL Nerd Font\"",
     "Theme": "\"GruvboxDark\"",
-    "ExperimentId": "55f405d5-578b-4ef0-b81a-5ed96ea92da9",
-    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-04-18T12:32:40.915767673Z\"}",
-    "WelcomeTipsFeaturesUsed": "[{\"Action\":\"ThemePicker\"},{\"Hint\":\"CreateBlock\"}]",
-    "ReceivedReferralTheme": "\"Inactive\"",
+    "HonorPS1": "true",
+    "EmacsBindingsBannerState": "\"Dismissed\"",
+    "WelcomeTipsFeaturesUsed": "[{\"Action\":\"CommandPalette\"},{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockSelect\"},{\"Hint\":\"CreateBlock\"}]",
+    "Shortcuts": "true",
     "ChangelogVersions": "{\"v0.2024.03.19.08.01.stable_01\":true}",
-    "Shortcuts": "true"
+    "AutosuggestionAcceptedCount": "2",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-04-18T12:32:40.915767673Z\"}",
+    "ExperimentId": "55f405d5-578b-4ef0-b81a-5ed96ea92da9"
   }
 }

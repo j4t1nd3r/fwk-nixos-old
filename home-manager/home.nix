@@ -17,7 +17,6 @@
     ];
 
     file = {
-      #  ".bashrc".source = ../configs/.bashrc;
       # ".config/warp-terminal/user_preferences.json".source = ../configs/warp-terminal.json;
     };
 
@@ -68,6 +67,8 @@
     #   "git.confirmSync": false;
     #   "editor.renderWhitespace": "all";
     #   "workbench.colorTheme": "Gruvbox Dark Hard";
+    #   "editor.fontFamily": "'MesloLGL Nerd Font', 'Droid Sans Mono', 'monospace'"
     # };
   };
 }
+

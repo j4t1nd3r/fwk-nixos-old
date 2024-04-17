@@ -12,8 +12,19 @@
     homeDirectory = "/home/jat";
     stateVersion = "23.11";
 
-    packages = [
-      pkgs.starship
+    packages = with pkgs; [
+      starship
+      git
+      warp-terminal
+      jq
+      xclip
+      rofi-screenshot
+      neofetch
+      vscode
+      google-chrome
+      firefox
+      discord
+      spotify
     ];
 
     file = {

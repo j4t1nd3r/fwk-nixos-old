@@ -18,7 +18,8 @@
       warp-terminal
       jq
       xclip
-      rofi-screenshot
+      # rofi-screenshot
+      flameshot
       neofetch
       vscode
       google-chrome

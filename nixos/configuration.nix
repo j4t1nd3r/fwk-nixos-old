@@ -63,8 +63,7 @@
   services.xserver.displayManager.sddm.enable = true;
   # services.xserver.displayManager.sddm.enableHidpi = true;
   services.xserver.desktopManager.plasma5.enable = true;
-  # services.xserver.desktopManager.plasma5.useQtScaling = true;
-  services.xserver.dpi = 120;
+  services.xserver.desktopManager.plasma5.useQtScaling = true;
 
   # Configure keymap in X11
   services.xserver = {

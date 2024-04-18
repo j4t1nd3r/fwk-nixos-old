@@ -61,9 +61,9 @@
 
   # Enable the KDE Plasma Desktop Environment.
   services.xserver.displayManager.sddm.enable = true;
-  services.xserver.displayManager.sddm.enableHidpi = true;
+  # services.xserver.displayManager.sddm.enableHidpi = true;
   services.xserver.desktopManager.plasma5.enable = true;
-  services.xserver.desktopManager.plasma5.useQtScaling = true;
+  # services.xserver.desktopManager.plasma5.useQtScaling = true;
   services.xserver.dpi = 120;
 
   # Configure keymap in X11

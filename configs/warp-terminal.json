@@ -1,19 +1,19 @@
 {
   "prefs": {
     "Shortcuts": "true",
-    "ChangelogVersions": "{\"v0.2024.03.19.08.01.stable_01\":true}",
     "NotebookFontSize": "14.0",
+    "FontSize": "14.0",
     "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-04-18T12:32:40.915767673Z\"}",
-    "FontName": "\"MesloLGL Nerd Font\"",
-    "HonorPS1": "true",
     "ExperimentId": "55f405d5-578b-4ef0-b81a-5ed96ea92da9",
     "OpenFileEditor": "\"VSCode\"",
-    "Theme": "\"GruvboxDark\"",
     "EmacsBindingsBannerState": "\"Dismissed\"",
     "AutosuggestionAcceptedCount": "2",
+    "FontName": "\"MesloLGL Nerd Font\"",
+    "ChangelogVersions": "{\"v0.2024.03.19.08.01.stable_01\":true}",
+    "Theme": "\"GruvboxDark\"",
     "ReceivedReferralTheme": "\"Inactive\"",
-    "FontSize": "9.0",
     "MatchNotebookToMonospaceFontSize": "true",
+    "HonorPS1": "true",
     "WelcomeTipsFeaturesUsed": "[{\"Action\":\"CommandPalette\"},{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockSelect\"},{\"Hint\":\"CreateBlock\"}]"
   }
 }

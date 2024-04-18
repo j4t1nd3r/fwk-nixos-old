@@ -87,8 +87,7 @@
     alsa.support32Bit = true;
     pulse.enable = true;
   };
-  
-  fonts.optimizeForVeryHighDPI.enable = false;
+
   fonts.packages = with pkgs; [
     (nerdfonts.override { fonts = [ "Meslo" ]; })
   ];

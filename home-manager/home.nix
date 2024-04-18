@@ -74,15 +74,6 @@
       bbenoist.nix
       github.vscode-pull-request-github
     ];
-    # userSettings = {
-    #   "extensions.autoCheckUpdates" = false;
-    #   "git.enableSmartCommit" = true;
-    #   "git.confirmSync" = false;
-    #   "editor.tabSize" = 2;
-    #   "editor.renderWhitespace" = "all";
-    #   "editor.fontFamily" = "'MesloLGL Nerd Font', 'Droid Sans Mono', 'monospace'";
-    #   "workbench.colorTheme" = "Gruvbox Dark Hard";
-    # };
   };
 }
 

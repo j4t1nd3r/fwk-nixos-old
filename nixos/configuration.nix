@@ -64,11 +64,6 @@
   services.xserver.displayManager.sddm.enableHidpi = true;
   services.xserver.desktopManager.plasma5.enable = true;
   services.xserver.desktopManager.plasma5.useQtScaling = true;
-  
-  # display global scale set to 125%
-  environment.variables = {
-    GDK_SCALE = "1.25";
-  };
 
   # Configure keymap in X11
   services.xserver = {

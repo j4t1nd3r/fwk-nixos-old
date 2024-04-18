@@ -28,7 +28,7 @@
     ];
 
     file = {
-      ".config/warp-terminal/user_preferences.json".source = config.lib.file.mkOutOfStoreSymlink ../configs/warp-terminal.json;
+      ".config/warp-terminal/user_preferences.json".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nix-fwk-system//configs/warp-terminal.json";
     };
 
     sessionVariables = {

@@ -62,6 +62,7 @@
   # Enable the KDE Plasma Desktop Environment.
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
+  services.xserver.desktopManager.plasma5.useQtScaling = true;
 
   # Configure keymap in X11
   services.xserver = {
@@ -85,14 +86,10 @@
     alsa.support32Bit = true;
     pulse.enable = true;
   };
-
-
-fonts = {
-  fontconfig.dpi = 180;
-  packages = with pkgs; [
+  
+  fonts.packages = with pkgs; [
     (nerdfonts.override { fonts = [ "Meslo" ]; })
   ];
-};
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.jat = {

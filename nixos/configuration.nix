@@ -105,7 +105,7 @@
 
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
-    pkgs.home-manager
+    home-manager
   #  wget
   ];
     programs.hyprland.enable = true;

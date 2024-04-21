@@ -5,8 +5,6 @@
     plasma-manager.homeManagerModules.plasma-manager
   ];
 
-  programs.home-manager.enable = true;
-  
   home = {
     username = "jat";
     homeDirectory = "/home/jat";
@@ -70,7 +68,7 @@
       allowUnfree = true;
     };
   };
-
+  programs.home-manager.enable = true;
   programs.plasma = {
     enable = true;
 

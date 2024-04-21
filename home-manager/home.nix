@@ -3,6 +3,7 @@
 {
   imports = [
     plasma-manager.homeManagerModules.plasma-manager
+    inputs.hyprland-nix.homeManagerModules.default
   ];
 
   programs.home-manager.enable = true;
@@ -37,19 +38,28 @@
       EDITOR = "code";
     };
   };
-  
-  programs.plasma = {
-    enable = true;
 
-    workspace = {
-      lookAndFeel = "org.kde.breezedark.desktop";
-    };
-  };
+  wayland.windowManager.hyprland = {
+          enable = true;
+          reloadConfig = true;
+          systemdIntegration = true;
+          # recommendedEnvironment = false;
+          config = {
+          };
+      };  
 
   # set allowunFree
   nixpkgs = {
     config = {
       allowUnfree = true;
+    };
+  };
+
+  programs.plasma = {
+    enable = true;
+
+    workspace = {
+      lookAndFeel = "org.kde.breezedark.desktop";
     };
   };
 

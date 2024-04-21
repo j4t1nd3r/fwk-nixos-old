@@ -1,20 +1,21 @@
 {
   "prefs": {
-    "OpenFileEditor": "\"VSCode\"",
     "Theme": "\"GruvboxDark\"",
-    "MatchNotebookToMonospaceFontSize": "true",
+    "Shortcuts": "true",
     "FontSize": "10.0",
-    "ChangelogVersions": "{\"v0.2024.03.19.08.01.stable_01\":true}",
-    "FontName": "\"MesloLGL Nerd Font\"",
-    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-04-18T12:32:40.915767673Z\"}",
     "AutosuggestionAcceptedCount": "2",
-    "ReceivedReferralTheme": "\"Inactive\"",
-    "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"CreateBlock\"},{\"Hint\":\"BlockAction\"},{\"Hint\":\"BlockSelect\"},{\"Action\":\"ThemePicker\"},{\"Action\":\"CommandPalette\"}]",
-    "ExperimentId": "55f405d5-578b-4ef0-b81a-5ed96ea92da9",
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-04-18T12:32:40.915767673Z\"}",
+    "ChangelogVersions": "{\"v0.2024.03.19.08.01.stable_01\":true}",
     "NotebookFontSize": "14.0",
-    "HonorPS1": "true",
-    "HasAutoOpenedWelcomeFolder": "true",
     "EmacsBindingsBannerState": "\"Dismissed\"",
-    "Shortcuts": "true"
+    "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"BlockSelect\"},{\"Action\":\"SplitPane\"},{\"Hint\":\"BlockAction\"},{\"Action\":\"ThemePicker\"},{\"Action\":\"CommandPalette\"},{\"Hint\":\"CreateBlock\"}]",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "OpenFileEditor": "\"VSCode\"",
+    "FontName": "\"MesloLGL Nerd Font\"",
+    "LaunchNotebookShown": "true",
+    "ExperimentId": "55f405d5-578b-4ef0-b81a-5ed96ea92da9",
+    "HonorPS1": "true",
+    "MatchNotebookToMonospaceFontSize": "true"
   }
 }

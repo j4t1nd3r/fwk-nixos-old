@@ -14,6 +14,7 @@
         nixpkgs.follows = "nixpkgs";
       };
     };
+    hyprland-nix.url = "github:spikespaz/hyprland-nix";
   };
 
   outputs = { self, nixpkgs, plasma-manager, ... }@inputs:

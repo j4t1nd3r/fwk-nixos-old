@@ -20,17 +20,6 @@
     };
   };
 
-  # nix.nixPath = [
-  #   "nixpkgs=flake:nixpkgs:/nix/var/nix/profiles/per-user/root/channels"
-  #   "nixos-config=/home/jat/nix-fwk-system/nixos/configuration.nix"
-  #   "/nix/var/nix/profiles/per-user/root/channels"
-  # ];
-
-  # previous
-  # /home/jat/.nix-defexpr/channels:nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos:
-  # nixos-config=/etc/nixos/configuration.nix:
-  # /nix/var/nix/profiles/per-user/root/channels
-
   # enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 

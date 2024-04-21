@@ -21,10 +21,10 @@
   };
 
   nix.nixPath = [
-  "nixpkgs=${nixos-version-fetched}"
-  "nixos-config=/home/jat/nix-fwk-system/nixos/configuration.nix"
-  "/nix/var/nix/profiles/per-user/root/channels"
-];
+    "nixpkgs=${nixos-version-fetched}"
+    "nixos-config=/home/jat/nix-fwk-system/nixos/configuration.nix"
+    "/nix/var/nix/profiles/per-user/root/channels"
+  ];
 
   # enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

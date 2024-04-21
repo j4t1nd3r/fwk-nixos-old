@@ -19,7 +19,8 @@
       jat = import ../home-manager/home.nix;
     };
   };
-
+  nix.nixPath = [{ path = "/home/jat/nix-fwk-system/nixos/configuration.nix"; prefix = "nixos-config"; }];
+  
   # enable flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 

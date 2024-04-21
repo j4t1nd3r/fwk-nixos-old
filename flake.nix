@@ -38,6 +38,7 @@
         modules = [
         ./nixos/configuration.nix
         inputs.home-manager.nixosModules.default
+        inputs.hyprland-nix.homeManagerModules.default
         ];
       };
     };

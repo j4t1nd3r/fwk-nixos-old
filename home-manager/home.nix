@@ -39,14 +39,14 @@
     };
   };
 
-  wayland.windowManager.hyprland = {
-          enable = true;
-          reloadConfig = true;
-          systemdIntegration = true;
-          # recommendedEnvironment = false;
-          config = {
-          };
-      };  
+  # wayland.windowManager.hyprland = {
+  #         enable = true;
+  #         reloadConfig = true;
+  #         systemdIntegration = true;
+  #         # recommendedEnvironment = false;
+  #         config = {
+  #         };
+  #     };  
 
   # set allowunFree
   nixpkgs = {

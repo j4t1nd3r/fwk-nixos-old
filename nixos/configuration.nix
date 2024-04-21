@@ -7,7 +7,6 @@
     [
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.home-manager
-      inputs.hyprland-nix.homeManagerModules.default
     ];
 
   # home-manager
@@ -19,6 +18,11 @@
     users = {
       jat = import ../home-manager/home.nix;
     };
+  };
+
+  programs.hyprland = {
+    enable = true;
+    package = inputs.hyprland.packages.${pkgs.system}.hyprland;
   };
 
   # enable flakes

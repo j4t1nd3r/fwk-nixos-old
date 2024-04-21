@@ -14,11 +14,11 @@
         nixpkgs.follows = "nixpkgs";
       };
     };
-    hyprland = {
-      url = "github:hyprwm/hyprland";
-      inputs.systems.follows = "systems";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    # hyprland = {
+    #   url = "github:hyprwm/hyprland";
+    #   inputs.systems.follows = "systems";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
   };
 
   outputs = { self, nixpkgs, plasma-manager, ... }@inputs:

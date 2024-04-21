@@ -7,6 +7,7 @@
     [
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.home-manager
+      inputs.hyprland-nix.homeManagerModules.default
     ];
 
   # home-manager

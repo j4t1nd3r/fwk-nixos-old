@@ -3,7 +3,7 @@
 {
   imports = [
     plasma-manager.homeManagerModules.plasma-manager
-    inputs.hyprland-nix.homeManagerModules.default
+    hyprland-nix.homeManagerModules.default
   ];
 
   programs.home-manager.enable = true;

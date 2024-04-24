@@ -102,8 +102,7 @@
       enable = true;
       settings = {
         eDP-1 = {
-          path = "/home/jat/nix-fwk-system/assets/cyberpunk-2077-concept-art-wallpapers.jpg";
-          apply-shadow = true;
+          path = "/home/jat/nix-fwk-system/assets/";
         };
       };
     };

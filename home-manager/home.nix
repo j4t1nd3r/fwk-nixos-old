@@ -98,10 +98,13 @@
       github.vscode-pull-request-github
     ];
   };
-  wpaperd.settings = {
-    eDP-1 = {
-      path = "/home/jat/nix-fwk-system/assets/cyberpunk-2077-concept-art-wallpapers.jpg";
-      apply-shadow = true;
+  wpaperd = {
+    enable = true;
+    settings = {
+      eDP-1 = {
+        path = "/home/jat/nix-fwk-system/assets/cyberpunk-2077-concept-art-wallpapers.jpg";
+        apply-shadow = true;
+      };
     };
   };
 }

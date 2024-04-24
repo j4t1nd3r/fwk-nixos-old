@@ -43,6 +43,7 @@
         bind =
           [
             "$mod, F, exec, firefox"
+            "$mod, W, exec, warp-terminal"
             ", Print, exec, grimblast copy area"
           ]
           ++ (

@@ -37,7 +37,7 @@
 
         modules = [
         ./nixos/configuration.nix
-        nixos-hardware/framework/16-inch/cpu/7040-amd
+        nixos-hardware.framework-16-inch-cpu-7040-amd
         inputs.home-manager.nixosModules.default
         ];
       };

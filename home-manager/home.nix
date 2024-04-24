@@ -89,23 +89,23 @@
     starship = {
       enable = true;
       enableBashIntegration = true; 
-  };
-  vscode = {
-    enable = true;
-    extensions = with pkgs.vscode-extensions; [
-      jdinhlife.gruvbox
-      bbenoist.nix
-      github.vscode-pull-request-github
-    ];
-  };
-  wpaperd = {
-    enable = true;
-    settings = {
-      eDP-1 = {
-        path = "/home/jat/nix-fwk-system/assets/cyberpunk-2077-concept-art-wallpapers.jpg";
-        apply-shadow = true;
+    };
+    vscode = {
+      enable = true;
+      extensions = with pkgs.vscode-extensions; [
+        jdinhlife.gruvbox
+        bbenoist.nix
+        github.vscode-pull-request-github
+      ];
+    };
+    wpaperd = {
+      enable = true;
+      settings = {
+        eDP-1 = {
+          path = "/home/jat/nix-fwk-system/assets/cyberpunk-2077-concept-art-wallpapers.jpg";
+          apply-shadow = true;
+        };
       };
     };
   };
 }
-

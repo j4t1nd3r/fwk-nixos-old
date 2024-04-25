@@ -23,6 +23,7 @@
       firefox
       discord
       spotify
+      signal-desktop
     ];
 
     file = {

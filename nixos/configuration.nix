@@ -115,6 +115,7 @@
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
     home-manager
+    nix-prefetch-git
   ];
     
   # Some programs need SUID wrappers, can be configured further or are

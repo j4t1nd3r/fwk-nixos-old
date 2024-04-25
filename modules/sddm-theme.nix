@@ -1,7 +1,7 @@
 { pkgs }:
 
 let
-  imgLink = "https://github.com/j4t1nd3r/fwk-nixos/blob/feat/fmwk/assets/anime-ghost_in_the_shell_1995-cyberpunk-futuristic_city-ghost_in_the_shell-night-432245.jpeg";
+  imgLink = "https://github.com/j4t1nd3r/fwk-nixos/blob/feat/fmwk/assets/ghost_in_the_shell.jpeg";
 
   image = pkgs.fetchurl {
     url = imgLink;

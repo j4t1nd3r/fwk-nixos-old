@@ -98,13 +98,5 @@
         github.vscode-pull-request-github
       ];
     };
-    wpaperd = {
-      enable = true;
-      settings = {
-        eDP-1 = {
-          path = "/home/jat/nix-fwk-system/assets/";
-        };
-      };
-    };
   };
 }

@@ -1,13 +1,5 @@
 { pkgs }:
 
-# let
-#   imgLink = "https://github.com/j4t1nd3r/fwk-nixos/blob/feat/fmwk/assets/ghost_in_the_shell.jpeg";
-
-#   image = pkgs.fetchurl {
-#     url = imgLink;
-#     sha256 = "sha256-9QuwcKtHMvys2u8LUMbLg2rkPiW8ynGQZtbtDl8B2OM=";
-#   };
-# in
 pkgs.stdenv.mkDerivation {
   name = "sddm-theme";
   src = pkgs.fetchFromGitHub {

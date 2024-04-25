@@ -63,7 +63,7 @@
   services.displayManager.sddm = {
     enable = true;
     wayland.enable = true;
-    theme = "${import ../modules/sddm-theme.nix {inherit pkgs; }}";
+    # theme = "${import ../modules/sddm-theme.nix {inherit pkgs; }}";
   };
   services.desktopManager.plasma6.enable = true;
 

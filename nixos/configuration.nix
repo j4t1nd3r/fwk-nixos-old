@@ -115,8 +115,6 @@
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
     home-manager
-    libsforqt5.qt5.qtquickcontrols2   
-    libsforqt5.qt5.qtgraphicaleffects
   ];
     
   # Some programs need SUID wrappers, can be configured further or are

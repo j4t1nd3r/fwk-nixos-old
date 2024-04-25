@@ -116,6 +116,8 @@
   environment.systemPackages = with pkgs; [
     home-manager
     nix-prefetch-git
+    libsforqt5.qt5.qtquickcontrols2
+    libsforqt5.qt5.qtgraphicaleffects
   ];
     
   # Some programs need SUID wrappers, can be configured further or are

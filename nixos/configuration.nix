@@ -63,7 +63,6 @@
   services.displayManager.sddm = {
     enable = true;
     wayland.enable = true;
-    theme = "${import ../modules/sddm-theme.nix { inherit pkgs; }}";
   };
   services.desktopManager.plasma6.enable = true;
 
@@ -116,10 +115,6 @@
   environment.systemPackages = with pkgs; [
     home-manager
     nix-prefetch-git
-    libsForQt5.qt5.qtquickcontrols2
-    libsForQt5.qt5.qtgraphicaleffects
-    libsForQt5.qt5.qtsvg
-    kdePackages.sddm
   ];
     
   # Some programs need SUID wrappers, can be configured further or are

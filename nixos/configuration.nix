@@ -116,10 +116,10 @@
   environment.systemPackages = with pkgs; [
     home-manager
     nix-prefetch-git
-    # libsForQt5.plasma-framework
-    libsForQt5.qt5.qtsvg
+    libsForQt5.plasma-framework
     libsForQt5.qt5.qtquickcontrols2
     libsForQt5.qt5.qtgraphicaleffects
+    libsForQt5.qt5.qtsvg
   ];
     
   # Some programs need SUID wrappers, can be configured further or are

@@ -11,7 +11,7 @@
 
   # enable bios updates, run "fwupdmgr update" to update
   services.fwupd.enable = true;
-
+  services.fwupd.extraRemotes = [ "lvfs-testing" ];
   # home-manager
   home-manager = {
     extraSpecialArgs = { 
@@ -29,6 +29,8 @@
   # allow unfree 
   nixpkgs.config.allowUnfree = true;
 
+  # latest kernal
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;

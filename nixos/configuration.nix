@@ -8,6 +8,8 @@
       ./hardware-configuration.nix
       inputs.home-manager.nixosModules.home-manager
     ];
+  # enable bios updates, run "fwupdmgr update" to update
+  services.fwupd.enable = true;
 
   # home-manager
   home-manager = {

@@ -79,6 +79,9 @@
   #   trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
   # };
 
+  # kwallet - avoid chrome prompt on each login
+  security.pam.services.sddm.enableKwallet = true;
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "gb";

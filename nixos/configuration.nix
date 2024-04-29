@@ -80,8 +80,8 @@
   # };
 
   # kwallet - avoid chrome prompt on each login
-  security.pam.services.sddm.enableKwallet = true;
-
+  security.pam.services.kdwallet.kwallet.enable = true; 
+  
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "gb";

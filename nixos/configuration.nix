@@ -10,6 +10,8 @@
     ];
   # enable bios updates, run "fwupdmgr update" to update
   services.fwupd.enable = true;
+  # use power-profiles-daemon over tlp for the AMD framework
+  services.power-profiles-daemon.enable
 
   # home-manager
   home-manager = {

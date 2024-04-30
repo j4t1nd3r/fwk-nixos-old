@@ -72,6 +72,7 @@
   services.desktopManager.plasma6.enable = true;
 
   # kwallet - avoid chrome prompt on each login
+  security.pam.services.login.enableKwallet = true;
   security.pam.services.kdewallet.kwallet.enable = true; 
   
   # Configure keymap in X11

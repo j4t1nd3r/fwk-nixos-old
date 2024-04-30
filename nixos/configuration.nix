@@ -117,6 +117,7 @@
   environment.systemPackages = with pkgs; [
     home-manager
     nix-prefetch-git
+    kdePackages.kwallet-pam
   ];
     
   # Some programs need SUID wrappers, can be configured further or are

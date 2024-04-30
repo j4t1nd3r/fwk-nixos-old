@@ -70,11 +70,6 @@
     wayland.enable = true;
   };
   services.desktopManager.plasma6.enable = true;
-
-  # kwallet - avoid chrome prompt on each login
-  security.pam.services.sddm.enableKwallet = true;
-  security.pam.services.kwallet.kwallet.enable = true; 
-  security.pam.services.kdewallet.kwallet.enable = true; 
   
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -117,7 +112,6 @@
   environment.systemPackages = with pkgs; [
     home-manager
     nix-prefetch-git
-    kdePackages.kwallet-pam
   ];
     
   # Some programs need SUID wrappers, can be configured further or are

@@ -65,15 +65,15 @@
     };
     vscode = {
       enable = true;
-      # extensions = with pkgs.vscode-extensions; [
-      #   jdinhlife.gruvbox
-      #   github.vscode-pull-request-github
-      #   bbenoist.nix
-      #   eamodio.gitlens
-      #   davidanson.vscode-markdownlint
-      #   ms-python.python
-      #   ms-python.vscode-pylance
-      # ];
+      extensions = with pkgs.vscode-extensions; [
+        jdinhlife.gruvbox
+        github.vscode-pull-request-github
+        bbenoist.nix
+        eamodio.gitlens
+        davidanson.vscode-markdownlint
+        ms-python.python
+        ms-python.vscode-pylance
+      ];
     };
   };
 }

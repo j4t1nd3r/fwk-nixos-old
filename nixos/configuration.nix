@@ -11,7 +11,7 @@
 
   # enable bios updates, run "fwupdmgr update" to update
   services.fwupd.enable = true;
-  services.fwupd.extraRemotes = [ "lvfs-testing" ];
+
   # home-manager
   home-manager = {
     extraSpecialArgs = { 

@@ -30,7 +30,6 @@
     file = {
       ".config/warp-terminal/user_preferences.json".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nix-fwk-system//configs/warp-terminal.json"; # warp terminal
       ".config/Code/User/settings.json".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nix-fwk-system/configs/vscode-settings.json"; # vscode settings.json
-       
     };
 
     sessionVariables = {
@@ -67,14 +66,14 @@
       enable = true;
       extensions = with pkgs.vscode-extensions; [
         bbenoist.nix
+      ];
+    };
+  };
+}
+
         # jdinhlife.gruvbox
         # github.vscode-pull-request-github
         # eamodio.gitlens
         # davidanson.vscode-markdownlint
         # ms-python.python
         # ms-python.vscode-pylance
-      ];
-    };
-  };
-}
-

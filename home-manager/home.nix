@@ -70,9 +70,6 @@
         eamodio.gitlens
         github.vscode-pull-request-github
         bbenoist.nix
-        davidanson.vscode-markdownlint
-        ms-python.python
-        ms-python.vscode-pylance
       ];
     };
   };

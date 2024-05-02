@@ -18,7 +18,7 @@
       xclip
       flameshot
       neofetch
-      # vscode
+      vscode
       google-chrome
       firefox
       discord

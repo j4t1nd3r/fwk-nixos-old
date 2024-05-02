@@ -67,10 +67,10 @@
       enable = true;
       extensions = with pkgs.vscode-extensions; [
         jdinhlife.gruvbox
-        github.vscode-pull-request-github
-        eamodio.gitlens
+        # github.vscode-pull-request-github
+        # eamodio.gitlens
         bbenoist.nix
-        davidanson.vscode-markdownlint
+        #davidanson.vscode-markdownlint
         # ms-python.python
         # ms-python.vscode-pylance
       ];

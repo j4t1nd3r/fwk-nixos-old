@@ -73,7 +73,6 @@
         davidanson.vscode-markdownlint # docsmsft.docs-markdown not available
         ms-python.python
         ms-python.vscode-pylance
-
       ];
     };
   };

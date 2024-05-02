@@ -70,7 +70,7 @@
         eamodio.gitlens
         github.vscode-pull-request-github
         bbenoist.nix
-        davidanson.vscode-markdownlint # docsmsft.docs-markdown not available
+        davidanson.vscode-markdownlint
         ms-python.python
         ms-python.vscode-pylance
       ];

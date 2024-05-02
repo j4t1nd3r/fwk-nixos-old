@@ -29,11 +29,11 @@
   # allow unfree 
   nixpkgs.config.allowUnfree = true;
 
-  # latest kernal
-  boot.kernelPackages = pkgs.linuxPackages_latest;
-  # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  boot = {
+    kernelPackages = pkgs.linuxPackages_latest; # latest kernal
+    loader.systemd-boot.enable = true;
+    loader.efi.canTouchEfiVariables = true;
+  };
 
   networking.hostName = "jat-fwk-nix"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -61,15 +61,14 @@
     LC_TIME = "en_GB.UTF-8";
   };
 
-  # Enable the X11 windowing system.
-  services.xserver.enable = true;
-
-  # Enable the KDE Plasma Desktop Environment.
-  services.displayManager.sddm = {
-    enable = true;
-    wayland.enable = true;
+  services = {
+    xserver.enable = true; # Enable the X11 windowing system.
+    displayManager.sddm = {
+      enable = true;
+      wayland.enable = true;
+    };
+    desktopManager.plasma6.enable = true;
   };
-  services.desktopManager.plasma6.enable = true;
   
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -103,13 +102,12 @@
     isNormalUser = true;
     description = "Jatinder";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      kate
-    ];
+    packages = with pkgs; [];
   };
 
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [
+    kate
     home-manager
     nix-prefetch-git
   ];

@@ -64,16 +64,18 @@
     };
     vscode = {
       enable = true;
-      extensions = with pkgs.vscode-extensions; [
-        bbenoist.nix
+      extensions = [
+        pkgs.vscode-extensions.bbenoist.nix
       ];
     };
   };
 }
-
+      # extensions = with pkgs.vscode-extensions; [
+        # bbenoist.nix
         # jdinhlife.gruvbox
         # github.vscode-pull-request-github
         # eamodio.gitlens
         # davidanson.vscode-markdownlint
         # ms-python.python
         # ms-python.vscode-pylance
+      # ];

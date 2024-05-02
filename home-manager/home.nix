@@ -65,15 +65,6 @@
     };
     vscode = {
       enable = true;
-      extensions = with pkgs.vscode-extensions; [
-        jdinhlife.gruvbox
-        github.vscode-pull-request-github
-        eamodio.gitlens
-        bbenoist.nix
-        davidanson.vscode-markdownlint
-        # ms-python.python
-        # ms-python.vscode-pylance
-      ];
     };
   };
 }

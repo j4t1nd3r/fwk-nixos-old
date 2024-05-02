@@ -67,8 +67,13 @@
       enable = true;
       extensions = with pkgs.vscode-extensions; [
         jdinhlife.gruvbox
-        bbenoist.nix
+        eamodio.gitlens
         github.vscode-pull-request-github
+        bbenoist.nix
+        docsmsft.docs-markdown
+        ms-python.python
+        ms-python.vscode-pylance
+
       ];
     };
   };

@@ -65,6 +65,7 @@
     };
     vscode = {
       enable = true;
+      enableUpdateCheck = false;
       extensions = with pkgs.vscode-extensions; [
         jdinhlife.gruvbox
         github.vscode-pull-request-github

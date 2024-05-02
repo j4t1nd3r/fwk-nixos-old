@@ -66,8 +66,8 @@
     vscode = {
       enable = true;
       extensions = with pkgs.vscode-extensions; [
-        jdinhlife.gruvbox
-        github.vscode-pull-request-github
+        # jdinhlife.gruvbox
+        # github.vscode-pull-request-github
         bbenoist.nix
         # eamodio.gitlens
         # davidanson.vscode-markdownlint

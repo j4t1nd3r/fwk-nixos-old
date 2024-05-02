@@ -6,9 +6,9 @@
     "editor.fontFamily": "'MesloLGL Nerd Font', 'Droid Sans Mono', 'monospace'",
     "extensions.autoCheckUpdates": false,
     "githubPullRequests.createOnPublishBranch": "never",
-    "workbench.colorTheme": "Gruvbox Dark Hard",
     "editor.fontSize": 14,
     "explorer.confirmDragAndDrop": false,
     "terminal.explorerKind": "external",
-    "terminal.external.linuxExec": "warp-terminal"
+    "terminal.external.linuxExec": "warp-terminal",
+    "workbench.colorTheme": "Gruvbox Dark Hard"
 }

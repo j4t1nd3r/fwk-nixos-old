@@ -66,6 +66,7 @@
       enable = true;
       extensions = [
         pkgs.vscode-extensions.jdinhlife.gruvbox
+        pkgs.vscode-extensions.bbenoist.nix
       ];
     };
   };
